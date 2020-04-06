@@ -9,7 +9,7 @@ import java.util.List;
 public class FindDisappearedNumbers {
 
     public List<Integer> findDisappearedNumbers(int[] nums) {
-        List<Integer> res = new ArrayList<Integer>();
+        ArrayList res = new ArrayList();
         int len = nums.length;
         int arr[] = new int [len];
         for(int i=0; i<len; i++){
